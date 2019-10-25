@@ -1,6 +1,7 @@
 <h1> React Native Github Search Repositories </h1>
 
 <p>This project searches github repositories by repository name on <a href="https://developer.github.com/v3/search/#search-repositories" target="_blank">Github public api</a>, list them and show details of repository.</p>
+<p>⚠️ To manage state component, it's implemented React Hooks when using Redux.</p>
 
 <p>Dependencies used:<p>
     <ul>
