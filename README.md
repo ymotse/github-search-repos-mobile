@@ -23,7 +23,8 @@
 <hr/>
 
 <h4>😉 Installation and run: </h4>
-```$ git clone https://github.com/ymotse/react-native-git-search-repos.git```
+
+```$ git clone <Repository_link>```
 <br>
 
 ```$ cd folder_project``` 
