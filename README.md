@@ -11,10 +11,11 @@
    - axios 0.19.0<br>
    - styled components 4.4.0<br>
 
+<br>
 
 ![](https://raw.githubusercontent.com/ymotse/react-native-git-search-repos/master/screenshots/screenshot.jpg)
 
-![](../screenshots/github-search-repos.gif)
+![](https://github.com/ymotse/react-native-git-search-repos/blob/master/screenshots/github-search-repos.gif)
 
 <a href="https://drive.google.com/file/d/1kqF9UsWk4b9JHqRJCO-cEPiFiu832yVa/view?usp=sharing">Apk link to download</a>
 
@@ -22,8 +23,15 @@
 <hr/>
 
 <h4>😉 Installation and run: </h4>
-`$ git clone https://github.com/ymotse/react-native-git-search-repos.git`<br>
-`$ cd folder_project`<br>
-` npm install` or `yarn install`<br>
-`npm star` or `yarn start`<br>
+```$ git clone https://github.com/ymotse/react-native-git-search-repos.git```
+<br>
+
+```$ cd folder_project``` 
+<br>
+
+```npm install``` or ```yarn install```
+<br>
+
+```npm start``` or ```yarn start```
+<br>
 
