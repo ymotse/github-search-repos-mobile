@@ -4,26 +4,39 @@
  * 
  */
 
-import App from '../pages/App'
+import React from 'react'
+import { NavigationContainer } from '@react-navigation/native'
+import { createStackNavigator } from '@react-navigation/stack'
+
+import Search from '../pages/Search'
 import Details from '../pages/Details'
 
-import { createAppContainer } from 'react-navigation'
-import { createStackNavigator } from 'react-navigation-stack'
+
+const { Navigator, Screen } = createStackNavigator()
 
 
-const Routes = createStackNavigator({
-    AppPage: {
-        screen: App, 
-        navigationOptions: {
-            header: null,
-        }
-    },
-    DetailsPage: {
-        screen: Details, 
-        navigationOptions: {
-            title: 'Repository Details'
-        }
-    }
-})
+export default function PreferencesRoutes() {
+    return (
+        <NavigationContainer independent={true}>
 
-export default createAppContainer(Routes)
+            <Navigator>
+                <Screen 
+                    name="Search" 
+                    component={Search} 
+                    options={{ 
+                        headerShown: false, 
+                    }} 
+                />
+                
+                <Screen 
+                    name="Details" 
+                    component={Details} 
+                    screenOptions={{ 
+                        headerShown: true,
+                    }} 
+                />
+            </Navigator>
+
+        </NavigationContainer>
+    )
+}
